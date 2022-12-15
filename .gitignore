@@ -57,3 +57,4 @@ examples/example_sdl_sdlrenderer/example_sdl_sdlrenderer
 bin
 bin-int
 ImGui.vcxproj
+JSON/Schemas/Catalog/https%003A%002F%002Fgo.microsoft.com%002Ffwlink%002F%003Flinkid%003D835884
