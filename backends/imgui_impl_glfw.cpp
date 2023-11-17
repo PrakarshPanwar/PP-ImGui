@@ -103,10 +103,9 @@
 #include <emscripten/html5.h>
 #endif
 
-// Custom Code
 #ifndef SUBMIT_TO_MAIN_THREAD
-#include "../../../src/VulkanCore/Core/Application.h"
-#endif
+#error Please '#define SUBMIT_TO_MAIN_THREAD' as lambda
+#endif // !SUBMIT_TO_MAIN_THREAD
 
 // We gather version tests as define in order to easily see which features are version-dependent.
 #define GLFW_VERSION_COMBINED           (GLFW_VERSION_MAJOR * 1000 + GLFW_VERSION_MINOR * 100 + GLFW_VERSION_REVISION)
